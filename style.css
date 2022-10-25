@@ -2149,7 +2149,7 @@ select.mobile-device {
 	background-color: white;
 	box-shadow: 5px 5px 40px black;
     z-index: 1999;
-    overflow: hidden;
+    overflow: auto;
     display: none;
     animation-name: modalTop;
     animation-timing-function: linear;
