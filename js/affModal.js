@@ -8,21 +8,21 @@ $(function() {
     $("#genie").click(function(){
         $(".fade-modale").css("display","block");
         $(".modale").css("display","block");
-        $(".pTitre").text("CONSULTING")
+        $(".pTitre").text("GENIE CONSEIL")
         $(".pService").html(genieContain);
         $("body").css("overflow","hidden");
     });
     $("#consulting").click(function(){
         $(".fade-modale").css("display","block");
         $(".modale").css("display","block");
-        $(".pTitre").text("Facilitation")
+        $(".pTitre").text("CONSULTING")
         $(".pService").html(consult);
         $("body").css("overflow","hidden");
     });
     $("#Facilitation").click(function(){
         $(".fade-modale").css("display","block");
         $(".modale").css("display","block");
-        $(".pTitre").text("GENIE CONSEIL")
+        $(".pTitre").text("FACILITATION")
         $(".pService").html(facilit);
         $("body").css("overflow","hidden");
     });
